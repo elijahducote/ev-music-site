@@ -29,19 +29,22 @@
 .home-nav {
   display: flex;
 }
+.home-icon-group {
+  align-self: center;
+}
 .home-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: 2rem;
+  height: 2rem;
   margin-right: var(--dl-space-space-twounits);
 }
 .home-icon02 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: 2rem;
+  height: 2rem;
   margin-right: var(--dl-space-space-twounits);
 }
 .home-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: 2rem;
+  height: 2rem;
 }
 .home-burger-menu {
   display: none;
