@@ -30,21 +30,23 @@
   display: flex;
 }
 .home-icon-group {
+  position: relative;
   align-self: center;
+  min-height: 1.8rem;
 }
 .home-icon {
-  width: 2rem;
-  height: 2rem;
-  margin-right: var(--dl-space-space-twounits);
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 1rem;
 }
 .home-icon02 {
-  width: 2rem;
-  height: 2rem;
-  margin-right: var(--dl-space-space-twounits);
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 1rem;
 }
 .home-icon04 {
-  width: 2rem;
-  height: 2rem;
+  width: 1.6rem;
+  height: 1.6rem;
 }
 .home-burger-menu {
   display: none;
@@ -216,6 +218,9 @@
   }
   .home-nav {
     display: none;
+  }
+  .home-icon-group {
+    align-self: center;
   }
   .home-burger-menu {
     display: flex;
